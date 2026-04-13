@@ -1,0 +1,51 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.main-heading h1,
+.main-heading h4 {
+    color: green;
+    margin: 10px;
+}
+
+
+.green-heading h4 {
+    color: green;
+    text-decoration: underline;
+    margin: 5px;
+    padding-top: 20px;
+}
+
+.blue-heading {
+    color: skyblue;
+}
+
+p {
+    color: white;
+    text-transform: capitalize;
+    margin: 5px;
+    text-align: left;
+}
+
+.green-heading ul {
+    color: white;
+    margin: 5px;
+}
+
+.lower-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.lower-links a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
