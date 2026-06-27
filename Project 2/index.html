@@ -3,76 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic HTML Website</title>
-    <link rel="styleshteet" href="styles.css">
+    <title>Basic HTML website</title>
 </head>
 <body>
     <header>
-        <h1>Ankan Das</h1>
         <nav>
+            <h1>Ankan Das</h1>
             <ul>
-                <li>Home</li>
-                <li>Projects</li>
-                <li>Articles</li>
-                <li>Contact</li>
+                <li><a href="#home">Home</a> </li>
+                <li><a href="#projects">Projects</a> </li>
+                <li><a href="#articles">Articles</a> </li>
+                <li><a href="#contact">Contact</a> </li>
             </ul>
         </nav>
     </header>
-
     <main>
         <section>
-            <h2>Projects</h2>
-            <ul>
-                <li>Html only portfolio</li>
-                <li>Calculator</li>
-                <li>Quiz App</li>
-                <li>Countdown Timer</li>
-                <li>Product upcoming page</li>
-            </ul>
+            <h1>Fronted Developer</h1>
+            <p>html only with proper layout, no styling</p>
         </section>
-
+        <table border="1" width="100%">
+            <tr>
+                <td valign="top">
+                    <h2>Projects</h2>
+                    <ul>
+                        <li>HTML only portfolio</li>
+                        <li>Calculator</li>
+                        <li>Quiz App</li>
+                        <li>Product upcoming page</li>
+                    </ul>
+                </td>
+                <td valign="top">
+                    <h2>Work Experience</h2>
+                    <p>Built game macros with Python</p>
+                    <a href="https://github.com/ank-stack/Pixispots.git" target="_blank">Visit my Project</a>
+                    <br><br>
+                    <p>Created an AI API system to answer on-screen questions</p>
+                    <a href="#screen-game" target="_blank">Visit my GitHub Profile</a>
+                </td>
+                <td>
+                    <h2>Education</h2>
+                    <p>Graduated from Raisina Bengali School. Pursuing BCA from Chandigarh University.</p>
+                    <h3>Certificates</h3>
+                    <ul>
+                        <li><a href="#Python" target="_blank">Python</a></li>
+                        <li><a href="#Web-dev" target="_blank">HTML CSS JAVA</a></li>
+                        <li><a href="#ML" target="_blank">Machine Learning</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
         <section>
-            <h2>Work experience</h2>
-            <ul>
-                <li>Built game macros with python (pyautogui,pydirectinput) <a href="https://github.com/ank-stack/Pixispots.git" target="_blank" rel="noopener noreferrer">Click here</a></li>
-                <li>Created a system with ai API which answer the questions one the screen <a href="https://github.com/ank-stack/" target="_blank" rel="noopener noreferrer">Click here</a></li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Education</h2>
-            <p>Graduated from Raisina Bengali School. Currently pursuing bachelor of computer application from Chandigarh Univercity.</p>
-            <div>
-                Certificates:
-                <ul>
-                    <li>Python <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-2e8c1187-d236-46f0-a69a-7e7454d6593b.pdf" target="_blank" rel="noopener noreferrer">Certificate</a></li>
-                    <li>Machine learning <a href="#" target="_blank" rel="noopener noreferrer">Certificate</a></li>
-                    <li>C language <a href="#" target="_blank" rel="noopener noreferrer">Certificate</a></li>
-                    <li>Java <a href="#" target="_blank" rel="noopener noreferrer">Certificate</a></li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <h2>Reviews</h2>
-            <div>
-                <p>Ankan was a brilliant student; always stood out with his assignments.</p>
-                <p>Assistant Professor</p>
-            </div>
-            <div>
-                <p>Ankan was a brilliant student; always stood out with his assignments.</p>
-                <p>Assistant Professor</p>
-            </div>
-            <div>
-                <p>Ankan was a brilliant student; always stood out with his assignments.</p>
-                <p>Assistant Professor</p>
-            </div>
+            <h2>
+                Reviews From My Teachers
+            </h2>
+            <table>
+                <tr>
+                    <td>
+                        <fieldset>
+                            <p>Ankan was a brilliant student; always stood out with his assignments.</p>
+                            <p>— Jane Doe, Assistant Professor</p>
+                        </fieldset>
+                    </td>
+                    <td>
+                        <fieldset>
+                            <p>Ankan was a brilliant student; always stood out with his assignments.</p>
+                            <p>— Jane Doe, Assistant Professor</p>
+                        </fieldset>
+                    </td>
+                    <td>
+                        <fieldset>
+                            <p>Ankan was a brilliant student; always stood out with his assignments.</p>
+                            <p>— Jane Doe, Assistant Professor</p>
+                        </fieldset>
+                    </td>
+                </tr>
+            </table>
         </section>
     </main>
 
     <footer>
         <p>© all rights reserved 2026</p>
     </footer>
-
+    
 </body>
 </html>
