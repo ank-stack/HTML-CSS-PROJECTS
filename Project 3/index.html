@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Race Registration!</h1>
+    </header>
+
+    <main>
+        <section>
+            <form action="race-registration" method="post">
+
+                <div>
+                    <label for="first">First Name</label>
+                    <input type="text" id="first" name="first-name" required>
+                    <label for="last">Last Name</label>
+                    <input type="text" id="last" name="last-name" required>
+                </div>
+
+                <fieldset>
+                    <legend>Select Race Type:</legend>
+    
+                    <div>
+                        <input type="radio" name="race" id="fun_run" value="fun-run" checked>
+                        <label for="fun_run">Fun Run 5k</label>
+                    </div>
+    
+                    <div>
+                        <input type="radio" name="race" id="half" value="half-run">
+                        <label for="half">Half Marathon</label>
+                    </div>
+    
+                    <div>
+                        <input type="radio" name="race" id="full" value="full-run">
+                        <label for="full">Full Marathon</label>
+                    </div>
+                </fieldset>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="enter your email" name="email" required>
+                    <label for="pass">Password</label>
+                    <input type="password" id="pass" placeholder="enter your password" name="password" minlength="8" required>
+                </div>
+
+                <div>
+                    <label for="age">Select Age Group</label>
+                    <select name="age-group" id="age">
+                        <option value="">--Please choose an option--</option>
+                        <option value="young">under 18</option>
+                        <option value="adult">18-30</option>
+                        <option value="senior">30-50</option>
+                        <option value="elder">50+</option>
+                    </select>
+                </div>
+
+                <div>
+                    <button type="submit" name="race-registration">submit</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <footer></footer>
+
+</body>
+</html>
