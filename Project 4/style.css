@@ -1,5 +1,4 @@
-h1,
-p {
+h1 {
     text-align: center;
 }
 
@@ -32,13 +31,81 @@ table td {
     border: 1px solid black;
 }
 
-#sec-2 {
+#sec-1 h2{
+    padding: 10px;
     text-align: center;
-    list-style: none;
-    background-color: rgb(212, 212, 212);    
+    border-top: 4px solid black;
+    margin: auto;
 }
 
-#sec-3, #sec-3 p, #sec-3 ul {
+#sec-1 ul {
+    list-style:none;
+    padding: 0;
+    margin: auto;
+    background-color: rgb(189, 189, 189);
+}
+
+#sec-1 li {
+    text-align: center;
+    border-top: 2px black solid;
+    padding: 4px;
+}
+
+#sec-2 h2, #sec-3 h2 {
+    border: 3px black;
+    border-style: solid none;
+    margin: auto;
+    padding: 10px;
+}
+
+#sec-2 > div:first-of-type {
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.work-exp {
     text-align: left;
-    list-style:square;
+    margin: auto;
+    padding: 5px;
+    background-color: rgb(189, 189, 189);
+}
+
+.work-exp p {
+    margin: 0;
+}
+
+.work-exp a {
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 85, 85);
+    padding-top: 20px;
+    font-size: small;
+}
+
+#sec-3 h3 {
+    margin: 5px;
+}
+
+#sec-3 a {
+    text-decoration:none;
+    color: black;
+}
+
+#sec-3 a:hover {
+    color: red;
+}
+
+#sec-3 ul {
+    margin: 0;
+    padding-left: 15px;
+    list-style-type: "- ";
+}
+
+section:nth-of-type(2) h2 {
+    border-top: 3px black solid;
+}
+
+fieldset {
+    border: 2px solid black;
+    border-radius:2em;
 }
