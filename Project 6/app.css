@@ -1,0 +1,39 @@
+body {
+    background-color: #095256;
+}
+
+nav {
+    font-family: "Bitcount Prop Single", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "CRSV" 0.5,
+      "ELSH" 0,
+      "ELXP" 0;
+      
+    color: #BB9F06;
+    
+    text-transform: uppercase;
+    text-align: left;
+    
+    font-size: 25px;
+
+    border-bottom: 2px solid white;
+
+    padding-bottom: 5px;
+    padding-left: 1rem;
+    margin-bottom: 5px
+
+}
+
+.img-set {
+    display: flex;
+}
+
+img {
+    width: 30%;
+    margin: 1.6666%;
+
+    border-radius: 5px;
+}
